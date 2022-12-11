@@ -54,7 +54,7 @@ function Sermons1({ sermons, sermons2022 }) {
       <h1>Sermons 2022</h1>
       <div className="card_display">{render2021()}</div>
 
-      <h1>Sermons 2021</h1>
+      {/* <h1>Sermons 2021</h1> */}
       <div className="card_display">{render2022()}</div>
     </div>
   );
