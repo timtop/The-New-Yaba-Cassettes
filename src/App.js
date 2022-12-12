@@ -18,10 +18,28 @@ import "./styles/app.css";
 // import direction from "./imgs/Confused.jpg";
 import Sample from "./Sermons1";
 import inhisname from "./imgs/in-his-name.jpg";
+import thejoycode from "./imgs/the-joy-code.jpeg";
+import commadeer from "./imgs/commandeer.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Commandeer",
+        preacher: "Pst. Olajide Oladokun",
+        date: "Sunday 11th December 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670868620/Yaba%20Messages/121222_-_Commandeer_The_Language_of_Faith_ivlcxx.mp3",
+        name: "Commandeer - 11/11/22",
+        img: commadeer,
+      },
+      {
+        title: "The Joy Code",
+        preacher: "Pst. Deborah Elijah",
+        date: "Sunday 27th November 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670869158/Yaba%20Messages/271122_thulyz.mp3",
+        name: "The Joy Code - 27/11/22",
+        img: thejoycode,
+      },
       {
         title: "In His Name",
         preacher: "Pst. Deborah Elijah",
