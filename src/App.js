@@ -20,21 +20,30 @@ import Sample from "./Sermons1";
 import inhisname from "./imgs/in-his-name.jpg";
 import thejoycode from "./imgs/the-joy-code.jpeg";
 import commadeer from "./imgs/commandeer.jpg";
+import symphony from "./imgs/Symphony.jpeg";
 
 class App extends React.Component {
   render() {
     const sermons = [
       {
+        title: "Symphony",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 18th December 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1671555117/Yaba%20Messages/symphony_g4j5jq.mp3",
+        name: "Symphony - 18/12/22",
+        img: symphony,
+      },
+      {
         title: "Commandeer",
         preacher: "Pst. Olajide Oladokun",
         date: "Sunday 11th December 2022",
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670868620/Yaba%20Messages/121222_-_Commandeer_The_Language_of_Faith_ivlcxx.mp3",
-        name: "Commandeer - 11/11/22",
+        name: "Commandeer - 11/12/22",
         img: commadeer,
       },
       {
         title: "The Joy Code",
-        preacher: "Pst. Deborah Elijah",
+        preacher: "Pst. Deborah 'Jide Oladokun",
         date: "Sunday 27th November 2022",
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670869158/Yaba%20Messages/271122_thulyz.mp3",
         name: "The Joy Code - 27/11/22",
@@ -42,12 +51,13 @@ class App extends React.Component {
       },
       {
         title: "In His Name",
-        preacher: "Pst. Deborah Elijah",
+        preacher: "Pst. Deborah 'Jide Oladokun",
         date: "Sunday 6th November 2022",
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670748232/Yaba%20Messages/061122_In_His_Name_hbbj6i.mp3",
         name: "In His Name - 6/11/22",
         img: inhisname,
       },
+
       // {
       //   title: "The Builders",
       //   preacher: "Pst. Deborah Elijah",
