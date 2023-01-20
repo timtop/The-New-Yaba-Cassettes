@@ -21,6 +21,7 @@ import inhisname from "./imgs/in-his-name.jpg";
 import thejoycode from "./imgs/the-joy-code.jpeg";
 import commadeer from "./imgs/commandeer.jpg";
 import symphony from "./imgs/Symphony.jpeg";
+import audacity from "./imgs/audacity.jpg";
 
 class App extends React.Component {
   render() {
@@ -56,6 +57,14 @@ class App extends React.Component {
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670748232/Yaba%20Messages/061122_In_His_Name_hbbj6i.mp3",
         name: "In His Name - 6/11/22",
         img: inhisname,
+      },
+      {
+        title: "The Emboldened Matrix",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 15th January 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1674245284/Yaba%20Messages/150123_The_Emboldened_Matrix_qnwe5t.mp3",
+        name: "The Emboldened Matrix - 15/01/23",
+        img: audacity,
       },
 
       // {
