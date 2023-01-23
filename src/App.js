@@ -22,33 +22,26 @@ import thejoycode from "./imgs/the-joy-code.jpeg";
 import commadeer from "./imgs/commandeer.jpg";
 import symphony from "./imgs/Symphony.jpeg";
 import audacity from "./imgs/audacity.jpg";
+import commune from "./imgs/The Commune 2.0.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
       {
-        title: "Symphony",
+        title: "The Commune 2.0",
         preacher: "Pst. Deborah 'Jide Oladokun",
-        date: "Sunday 18th December 2022",
-        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1671555117/Yaba%20Messages/symphony_g4j5jq.mp3",
-        name: "Symphony - 18/12/22",
-        img: symphony,
+        date: "Sunday 22nd January 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1674491300/Yaba%20Messages/The_Commune_2_yhffzb.mp3",
+        name: "The Commune 2.0 - 22/01/23",
+        img: commune,
       },
       {
-        title: "Commandeer",
-        preacher: "Pst. Olajide Oladokun",
-        date: "Sunday 11th December 2022",
-        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670868620/Yaba%20Messages/121222_-_Commandeer_The_Language_of_Faith_ivlcxx.mp3",
-        name: "Commandeer - 11/12/22",
-        img: commadeer,
-      },
-      {
-        title: "The Joy Code",
+        title: "The Emboldened Matrix",
         preacher: "Pst. Deborah 'Jide Oladokun",
-        date: "Sunday 27th November 2022",
-        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670869158/Yaba%20Messages/271122_thulyz.mp3",
-        name: "The Joy Code - 27/11/22",
-        img: thejoycode,
+        date: "Sunday 15th January 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1674245284/Yaba%20Messages/150123_The_Emboldened_Matrix_qnwe5t.mp3",
+        name: "The Emboldened Matrix - 15/01/23",
+        img: audacity,
       },
       {
         title: "In His Name",
@@ -59,14 +52,29 @@ class App extends React.Component {
         img: inhisname,
       },
       {
-        title: "The Emboldened Matrix",
+        title: "The Joy Code",
         preacher: "Pst. Deborah 'Jide Oladokun",
-        date: "Sunday 15th January 2023",
-        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1674245284/Yaba%20Messages/150123_The_Emboldened_Matrix_qnwe5t.mp3",
-        name: "The Emboldened Matrix - 15/01/23",
-        img: audacity,
+        date: "Sunday 27th November 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670869158/Yaba%20Messages/271122_thulyz.mp3",
+        name: "The Joy Code - 27/11/22",
+        img: thejoycode,
       },
-
+      {
+        title: "Commandeer",
+        preacher: "Pst. Olajide Oladokun",
+        date: "Sunday 11th December 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1670868620/Yaba%20Messages/121222_-_Commandeer_The_Language_of_Faith_ivlcxx.mp3",
+        name: "Commandeer - 11/12/22",
+        img: commadeer,
+      },
+      {
+        title: "Symphony",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 18th December 2022",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1671555117/Yaba%20Messages/symphony_g4j5jq.mp3",
+        name: "Symphony - 18/12/22",
+        img: symphony,
+      },
       // {
       //   title: "The Builders",
       //   preacher: "Pst. Deborah Elijah",
@@ -117,54 +125,54 @@ class App extends React.Component {
       // },
     ];
 
-    const sermons2022 = [
-      //   {
-      //     title: "The Movement",
-      //     preacher: "Pst. Deborah Elijah",
-      //     date: "Sunday 16th January 2022",
-      //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1642976327/Messages/160122_The_Movement_-_Pastor_Debbie_ty9tzs.mp4",
-      //     name: "The Movement - 16/01/22",
-      //     img: movement1,
-      //   },
-      //   {
-      //     title: "Knowing who you are in Christ",
-      //     preacher: "Pst. Deborah Elijah",
-      //     date: "Sunday 23rd January 2022",
-      //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1643070124/Messages/230122_Knowing_who_you_are_in_Christ_wdsvkz.mp3",
-      //     name: "Goshen Experiecne - 23/01/22",
-      //     img: goshen,
-      //   },
-      //   {
-      //     title: "A Royal Preisthood",
-      //     preacher: "Pst. Deborah Elijah",
-      //     date: "Sunday 30th January 2022",
-      //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577984/Messages/310122_Knowing_who_you_are_in_Christ_2_bzv9vl.mp3",
-      //     name: "Goshen Experiecne - 30/01/22",
-      //     img: royal,
-      //   },
-      //   {
-      //     title: "Love loves me",
-      //     preacher: "Pst. Deborah Elijah",
-      //     date: "Sunday 6th Februray 2022",
-      //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577953/Messages/060222_Love_Loves_Me_ytgvom.mp3",
-      //     name: "Goshen Experiecne - 23/01/22",
-      //     img: lovesme,
-      //   },
-      //   {
-      //     title: "Confused ? (Receiving Divine Direction)",
-      //     preacher: "Pst. Tobi Olajiga",
-      //     date: "Sunday 20th Februray 2022",
-      //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1645386653/Messages/200222_Recieving_Divine_Direction_k93jqh.mp3",
-      //     name: "Goshen Experiecne - 23/01/22",
-      //     img: direction,
-      //   },
-    ];
+    // const sermons2022 = [
+    //   //   {
+    //   //     title: "The Movement",
+    //   //     preacher: "Pst. Deborah Elijah",
+    //   //     date: "Sunday 16th January 2022",
+    //   //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1642976327/Messages/160122_The_Movement_-_Pastor_Debbie_ty9tzs.mp4",
+    //   //     name: "The Movement - 16/01/22",
+    //   //     img: movement1,
+    //   //   },
+    //   //   {
+    //   //     title: "Knowing who you are in Christ",
+    //   //     preacher: "Pst. Deborah Elijah",
+    //   //     date: "Sunday 23rd January 2022",
+    //   //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1643070124/Messages/230122_Knowing_who_you_are_in_Christ_wdsvkz.mp3",
+    //   //     name: "Goshen Experiecne - 23/01/22",
+    //   //     img: goshen,
+    //   //   },
+    //   //   {
+    //   //     title: "A Royal Preisthood",
+    //   //     preacher: "Pst. Deborah Elijah",
+    //   //     date: "Sunday 30th January 2022",
+    //   //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577984/Messages/310122_Knowing_who_you_are_in_Christ_2_bzv9vl.mp3",
+    //   //     name: "Goshen Experiecne - 30/01/22",
+    //   //     img: royal,
+    //   //   },
+    //   //   {
+    //   //     title: "Love loves me",
+    //   //     preacher: "Pst. Deborah Elijah",
+    //   //     date: "Sunday 6th Februray 2022",
+    //   //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1644577953/Messages/060222_Love_Loves_Me_ytgvom.mp3",
+    //   //     name: "Goshen Experiecne - 23/01/22",
+    //   //     img: lovesme,
+    //   //   },
+    //   //   {
+    //   //     title: "Confused ? (Receiving Divine Direction)",
+    //   //     preacher: "Pst. Tobi Olajiga",
+    //   //     date: "Sunday 20th Februray 2022",
+    //   //     link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1645386653/Messages/200222_Recieving_Divine_Direction_k93jqh.mp3",
+    //   //     name: "Goshen Experiecne - 23/01/22",
+    //   //     img: direction,
+    //   //   },
+    // ];
 
     return (
       <div className="wrapper">
         <Header />
         {/* <Sermons sermons={sermons} sermons2022={sermons2022} /> */}
-        <Sample sermons={sermons} sermons2022={sermons2022} />
+        <Sample sermons={sermons} />
       </div>
     );
   }
