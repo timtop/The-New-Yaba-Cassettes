@@ -23,10 +23,19 @@ import commadeer from "./imgs/commandeer.jpg";
 import symphony from "./imgs/Symphony.jpeg";
 import audacity from "./imgs/audacity.jpg";
 import commune from "./imgs/The Commune 2.0.jpg";
+import thanks from "./imgs/thanksgiving.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "16:34 A Thanksgiving Expereince",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 29nd January 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1675078209/Yaba%20Messages/Sunday_29th_January_2023_Thanksgiving_cnupzb.mp3",
+        name: "A Thanksgiving Expereince - 29/01/23",
+        img: thanks,
+      },
       {
         title: "The Commune 2.0",
         preacher: "Pst. Deborah 'Jide Oladokun",
