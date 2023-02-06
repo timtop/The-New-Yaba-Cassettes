@@ -40,7 +40,7 @@ class App extends React.Component {
       {
         title: "16:34 A Thanksgiving Expereince",
         preacher: "Pst. Deborah 'Jide Oladokun",
-        date: "Sunday 29nd January 2023",
+        date: "Sunday 29th January 2023",
         link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1675078209/Yaba%20Messages/Sunday_29th_January_2023_Thanksgiving_cnupzb.mp3",
         name: "A Thanksgiving Expereince - 29/01/23",
         img: thanks,
