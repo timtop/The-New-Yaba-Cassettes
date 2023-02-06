@@ -24,10 +24,19 @@ import symphony from "./imgs/Symphony.jpeg";
 import audacity from "./imgs/audacity.jpg";
 import commune from "./imgs/The Commune 2.0.jpg";
 import thanks from "./imgs/thanksgiving.jpg";
+import love1 from "./imgs/love1.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Love is Wounded",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 6th February 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1675667372/Yaba%20Messages/Love_is_wounded_service_Feb_6_usrope.mp3",
+        name: "Love is Wounded - 06/02/23",
+        img: love1,
+      },
       {
         title: "16:34 A Thanksgiving Expereince",
         preacher: "Pst. Deborah 'Jide Oladokun",
