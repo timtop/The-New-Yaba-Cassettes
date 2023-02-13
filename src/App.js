@@ -25,10 +25,19 @@ import audacity from "./imgs/audacity.jpg";
 import commune from "./imgs/The Commune 2.0.jpg";
 import thanks from "./imgs/thanksgiving.jpg";
 import love1 from "./imgs/love1.jpg";
+import tango from "./imgs/tango.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Tango (It takes two)",
+        preacher: "Pst. Jide and Deborah 'Jide Oladokun",
+        date: "Sunday 12th February 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1676280480/Yaba%20Messages/12th_Feburary_Tango_compressed_jqwfoo.mp3",
+        name: "Tango - 12/02/23",
+        img: tango,
+      },
       {
         title: "Love is Wounded",
         preacher: "Pst. Deborah 'Jide Oladokun",
