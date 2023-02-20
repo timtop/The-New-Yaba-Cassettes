@@ -26,10 +26,19 @@ import commune from "./imgs/The Commune 2.0.jpg";
 import thanks from "./imgs/thanksgiving.jpg";
 import love1 from "./imgs/love1.jpg";
 import tango from "./imgs/tango.jpg";
+import lovenigeria from "./imgs/love-nigeria.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Love for the Country",
+        preacher: "Pst. Jide Oladokun",
+        date: "Sunday 20th February 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1676896255/Yaba%20Messages/Love_for_the_country_service_19_Feb_mp3_mixdown_totqgh.mp3",
+        name: "Love for the Country - 20/02/23",
+        img: lovenigeria,
+      },
       {
         title: "Tango (It takes two)",
         preacher: "Pst. Jide and Deborah 'Jide Oladokun",
