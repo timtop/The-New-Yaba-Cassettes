@@ -27,10 +27,19 @@ import thanks from "./imgs/thanksgiving.jpg";
 import love1 from "./imgs/love1.jpg";
 import tango from "./imgs/tango.jpg";
 import lovenigeria from "./imgs/love-nigeria.jpg";
+import alabaster from "./imgs/Alabaster.png";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Alabaster",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 13th March 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1678692737/Yaba%20Messages/12-03-2023_new_2_pwberl.mp3",
+        name: "Alabaster - 13/03/23",
+        img: alabaster,
+      },
       {
         title: "Love for the Country",
         preacher: "Pst. Jide Oladokun",
