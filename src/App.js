@@ -29,10 +29,19 @@ import tango from "./imgs/tango.jpg";
 import lovenigeria from "./imgs/love-nigeria.jpg";
 import alabaster from "./imgs/Alabaster.png";
 import alabaster2 from "./imgs/alabaster2.png";
+import impartation1 from "./imgs/impartation.jpeg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "A Special Impartation Service",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 2nd April 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1680511739/Yaba%20Messages/A_special_impartation_service_02_march_2023_Edited_mixdown_msdcfp.mp3",
+        name: "Alabaster - 19/03/23",
+        img: impartation1,
+      },
       {
         title: "Alabaster 2",
         preacher: "Pst. Deborah 'Jide Oladokun",
