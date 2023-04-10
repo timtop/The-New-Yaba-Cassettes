@@ -30,10 +30,19 @@ import lovenigeria from "./imgs/love-nigeria.jpg";
 import alabaster from "./imgs/Alabaster.png";
 import alabaster2 from "./imgs/alabaster2.png";
 import impartation1 from "./imgs/impartation.jpeg";
+import tnt from "./imgs/tomb-n-throne.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "The Tomb and The Throne",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 9th April 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1681112091/Yaba%20Messages/The_Tomb_and_The_Throne_mixdown_bzv6pn.mp3",
+        name: "The Tomb and The Throne - 09/04/23",
+        img: tnt,
+      },
       {
         title: "A Special Impartation Service",
         preacher: "Pst. Deborah 'Jide Oladokun",
