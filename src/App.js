@@ -31,10 +31,19 @@ import alabaster from "./imgs/Alabaster.png";
 import alabaster2 from "./imgs/alabaster2.png";
 import impartation1 from "./imgs/impartation.jpeg";
 import tnt from "./imgs/tomb-n-throne.jpg";
+import twnj from "./imgs/TWNJ.jpeg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "The Wonderful Name of Jesus",
+        preacher: "Pst. Shola Okodugha",
+        date: "Sunday 16th April 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1681669805/Yaba%20Messages/The_wonderful_name_of_Jesus_16th_April_Edited__mixdown_uavjel.mp3",
+        name: "The Wonderful Name of Jesus - 16/04/23",
+        img: twnj,
+      },
       {
         title: "The Tomb and The Throne",
         preacher: "Pst. Deborah 'Jide Oladokun",
