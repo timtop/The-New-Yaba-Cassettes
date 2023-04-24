@@ -32,10 +32,19 @@ import alabaster2 from "./imgs/alabaster2.png";
 import impartation1 from "./imgs/impartation.jpeg";
 import tnt from "./imgs/tomb-n-throne.jpg";
 import twnj from "./imgs/TWNJ.jpeg";
+import seated from "./imgs/seated.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Seated",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 24th April 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1682325120/Seated_April_23rd_Edited_sesx_mixdown_muc0q0.mp3",
+        name: "Seated - 16/04/23",
+        img: seated,
+      },
       {
         title: "The Wonderful Name of Jesus",
         preacher: "Pst. Shola Okodugha",
