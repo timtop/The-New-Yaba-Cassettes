@@ -33,10 +33,19 @@ import impartation1 from "./imgs/impartation.jpeg";
 import tnt from "./imgs/tomb-n-throne.jpg";
 import twnj from "./imgs/TWNJ.jpeg";
 import seated from "./imgs/seated.jpg";
+import pinj from "./imgs/PINJ.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Power in the Name of Jesus",
+        preacher: "Pst. Jide Oladokun",
+        date: "Sunday 30th April 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1682930742/Yaba%20Messages/Power_in_the_name_of_Jesus_30th_April_222_edited_mixdown_isfm1r.mp3",
+        name: "Power in the Name of Jesus - 30/04/23",
+        img: pinj,
+      },
       {
         title: "Seated",
         preacher: "Pst. Deborah 'Jide Oladokun",
