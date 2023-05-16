@@ -34,10 +34,19 @@ import tnt from "./imgs/tomb-n-throne.jpg";
 import twnj from "./imgs/TWNJ.jpeg";
 import seated from "./imgs/seated.jpg";
 import pinj from "./imgs/PINJ.jpg";
+import cod2 from "./imgs/cod2.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Call of Duty 2.0",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 14th May 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1684220245/Yaba%20Messages/Call_of_Duty_2.0_edited__mixdown_t4bhty.mp3",
+        name: "Power in the Name of Jesus - 30/04/23",
+        img: cod2,
+      },
       {
         title: "Power in the Name of Jesus",
         preacher: "Pst. Jide Oladokun",
