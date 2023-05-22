@@ -35,10 +35,19 @@ import twnj from "./imgs/TWNJ.jpeg";
 import seated from "./imgs/seated.jpg";
 import pinj from "./imgs/PINJ.jpg";
 import cod2 from "./imgs/cod2.jpg";
+import rog from "./imgs/ROG.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Rhythms of Grace",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 21st May 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1684789072/Rythyms_of_grace_May_21_._Editedsesx_mixdown_bj3jgm.mp3",
+        name: "Rhythms of Grace - 22/05/23",
+        img: rog,
+      },
       {
         title: "Call of Duty 2.0",
         preacher: "Pst. Deborah 'Jide Oladokun",
