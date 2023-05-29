@@ -36,10 +36,19 @@ import seated from "./imgs/seated.jpg";
 import pinj from "./imgs/PINJ.jpg";
 import cod2 from "./imgs/cod2.jpg";
 import rog from "./imgs/ROG.jpg";
+import leg from "./imgs/legislative-grace.jpg";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Legislative Grace",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 28th May 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1685351008/Yaba%20Messages/Sunday_28th_Legislative_Grace_mixdown_u3hpsl.mp3",
+        name: "Legislative Grace - 28/05/23",
+        img: leg,
+      },
       {
         title: "Rhythms of Grace",
         preacher: "Pst. Deborah 'Jide Oladokun",
