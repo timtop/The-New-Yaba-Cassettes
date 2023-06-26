@@ -37,10 +37,19 @@ import pinj from "./imgs/PINJ.jpg";
 import cod2 from "./imgs/cod2.jpg";
 import rog from "./imgs/ROG.jpg";
 import leg from "./imgs/legislative-grace.jpg";
+import place from "./imgs/default.png";
 
 class App extends React.Component {
   render() {
     const sermons = [
+      {
+        title: "Sunday 26th",
+        preacher: "Pst. Deborah 'Jide Oladokun",
+        date: "Sunday 26th June 2023",
+        link: "https://res.cloudinary.com/the-new-unilag/video/upload/v1687790206/Yaba%20Messages/audio1615611315_ksd5gw.mp4",
+        name: "Sunday 26th - 26/06/23",
+        img: place,
+      },
       {
         title: "Legislative Grace",
         preacher: "Pst. Deborah 'Jide Oladokun",
